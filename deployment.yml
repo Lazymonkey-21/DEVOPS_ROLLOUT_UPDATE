@@ -5,7 +5,7 @@ metadata:
   labels:
     work: website-hosting
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       work: website-hosting
@@ -18,7 +18,7 @@ spec:
         work: website-hosting
     spec:
       containers:
-      -  image: peace0563/webphp
+      -  image: techboutique/webphp
          name: webphp-site
          ports:
          -  containerPort: 80
