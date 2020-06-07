@@ -22,7 +22,7 @@ echo "
 
 
 				<p style='border:2px solid purple;  padding: 8px;'>
-				Rollout Update with 0 Downtime.
+				Rollout Update with 0 Downtime Using Kubernetes.
 				</p>
 
 			</div>
